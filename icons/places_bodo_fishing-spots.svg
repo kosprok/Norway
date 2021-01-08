@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg style="max-width: 100%;" viewBox="0 0 48 48" x="0px" y="0px" height="100%" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <style fill="currentColor" type="text/css">
+	.st0{fill:#010101;}
+</style>
+  <g fill="currentColor">
+    <polygon points="0,41 14.3,48 14.3,19.4 0,12.4" style="fill: rgb(80, 81, 85);"/>
+    <path d="M 16 19.4 V 48 l 14.3 -7 V 24.2 c -1.8 -3 -3.6 -6.4 -4.8 -9.4 L 16 19.4 Z" style="fill: rgb(80, 81, 85);"/>
+    <path d="M 45.5 18.3 c -2.8 5.7 -9.2 15.1 -9.2 15.1 L 32 27 v 14 l 16 7 V 19.4 L 45.5 18.3 Z" style="fill: rgb(80, 81, 85);"/>
+    <path d="M 46.2 9.9 c 0 -5.5 -4.5 -9.9 -9.9 -9.9 c -5.5 0 -9.9 4.5 -9.9 9.9 c 0 5.5 9.9 19.9 9.9 19.9 S 46.2 15.4 46.2 9.9 Z M 29.3 9.9 c 0 -3.8 3.1 -6.9 6.9 -6.9 s 6.9 3.1 6.9 6.9 s -3.1 6.9 -6.9 6.9 S 29.3 13.8 29.3 9.9 Z" style="fill: rgb(80, 81, 85);"/>
+  </g>
+</svg>
