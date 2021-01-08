@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg style="max-width: 100%;" viewBox="0 0 48 48" x="0px" y="0px" height="100%" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <style fill="currentColor" type="text/css">
+	.st0{fill:#010101;}
+</style>
+  <g fill="currentColor">
+    <rect transform="matrix(0.5 -0.866 0.866 0.5 -4.3645 10.3263)" x="-2" y="6.2" width="17.5" height="5.5" style="fill: rgb(80, 81, 85);"/>
+    <rect transform="matrix(0.5 -0.866 0.866 0.5 -4.3645 52.5668)" x="39.2" y="27.1" width="8.4" height="5.9" style="fill: rgb(80, 81, 85);"/>
+    <path d="M 14.3 5.3 l -6.9 12 l 9.5 5.5 c 0.9 -1.8 2.8 -3 4.9 -3 c 3.1 0 5.6 2.5 5.6 5.6 c 0 1.1 -0.3 2.1 -0.9 3 l 9 5.2 l 6.9 -12 L 14.3 5.3 Z" style="fill: rgb(80, 81, 85);"/>
+    <path d="M 25.4 25.4 c 0 -2 -1.6 -3.6 -3.6 -3.6 c -2 0 -3.6 1.6 -3.6 3.6 c 0 1.2 0.6 2.3 1.6 3 L 10 48 h 3.4 l 8.4 -16.9 L 30.2 48 h 3.4 l -9.8 -19.6 C 24.8 27.7 25.4 26.6 25.4 25.4 Z" style="fill: rgb(80, 81, 85);"/>
+  </g>
+</svg>
