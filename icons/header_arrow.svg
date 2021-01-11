@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg style="max-width: 100%;" enable-background="new 0 0 100 100" viewBox="0 0 100 100" x="0px" y="0px" height="100%" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <g fill="currentColor">
+    <rect fill="currentColor" x="-143.306" y="-2.593" width="137.037" height="73.333"/>
+    <rect fill="currentColor" x="-1.083" y="-29.259" width="74.074" height="22.222"/>
+    <text font-family="'Helvetica'" font-size="1.7778" fill="currentColor" transform="matrix(1 0 0 1 47.8059 -17.0371)" style="white-space: pre;">http://thenounproject.com</text>
+    <text font-family="'Helvetica-Bold'" font-size="4.5613" fill="currentColor" transform="matrix(1 0 0 1 4.2249 -20.7407)" style="white-space: pre;">The Noun Project</text>
+    <text font-family="'Helvetica-Bold'" font-size="2.963" fill="currentColor" transform="matrix(1 0 0 1 5.055 -17.1851)" style="white-space: pre;">Icon Template</text>
+    <text font-family="'Helvetica-Bold'" font-size="4.5613" fill="currentColor" transform="matrix(1 0 0 1 -133.305 5.1856)" style="white-space: pre;">Reminders</text>
+    <line fill="currentColor" stroke="#ffffff" stroke-miterlimit="10" x1="4.843" y1="-13.333" x2="12.25" y2="-13.333"/>
+    <line fill="currentColor" stroke="#ffffff" stroke-miterlimit="10" x1="-133.676" y1="9.63" x2="-121.083" y2="9.63"/>
+    <g fill="currentColor">
+      <g fill="currentColor">
+        <g fill="currentColor">
+          <rect fill="currentColor" x="-127.603" y="20.606" width="6.46" height="6.401"/>
+          <path fill="currentColor" d="M -122.902 28.75 h 3.516 v -3.484 h -3.516 V 28.75 Z M -119.058 29.073 h -4.17 V 24.94 h 4.17 V 29.073 L -119.058 29.073 Z M -124.21 30.046 h 6.133 V 23.97 h -6.133 V 30.046 L -124.21 30.046 Z M -117.75 30.37 h -6.787 v -6.725 h 6.787 V 30.37 L -117.75 30.37 Z"/>
+          <polygon fill="currentColor" points="-124.157,30.099 -124.263,29.993 -118.13,23.916 -118.025,24.021"/>
+        </g>
+      </g>
+    </g>
+    <rect fill="none" x="-133.676" y="40.37" width="25.926" height="24.074"/>
+    <text font-family="'Helvetica-Bold'" font-size="2.2222" fill="currentColor" transform="matrix(1 0 0 1 -133.676 41.9688)" style="white-space: pre;">Strokes</text>
+    <text font-family="'Helvetica'" font-size="1.7778" fill="currentColor" transform="matrix(1 0 0 1 -133.676 45.6719)" style="white-space: pre;">Try to keep strokes at 4px</text>
+    <text font-family="'Helvetica'" font-size="1.7778" fill="currentColor" transform="matrix(1 0 0 1 -133.676 49.376)" style="white-space: pre;">Minimum stroke weight is 2px</text>
+    <text font-family="'Helvetica'" font-size="1.7778" fill="currentColor" transform="matrix(1 0 0 1 -133.676 52.709)" style="white-space: pre;">For thicker strokes use even </text>
+    <text font-family="'Helvetica'" font-size="1.7778" fill="currentColor" transform="matrix(1 0 0 1 -133.676 54.9317)" style="white-space: pre;">numbers: 6px, 8px etc.</text>
+    <text font-family="'Helvetica-Bold'" font-size="1.7778" fill="currentColor" transform="matrix(1 0 0 1 -133.676 58.2646)" style="white-space: pre;">Remember to expand strokes </text>
+    <text font-family="'Helvetica-Bold'" font-size="1.7778" fill="currentColor" transform="matrix(1 0 0 1 -133.676 60.4868)" style="white-space: pre;">before saving as an SVG </text>
+    <rect fill="none" x="-102.194" y="40.37" width="25.926" height="24.074"/>
+    <text font-family="'Helvetica-Bold'" font-size="2.2222" fill="currentColor" transform="matrix(1 0 0 1 -102.194 41.9688)" style="white-space: pre;">Size</text>
+    <text font-family="'Helvetica'" font-size="1.7778" fill="currentColor" transform="matrix(1 0 0 1 -102.194 45.6719)" style="white-space: pre;">Cannot be wider or taller than </text>
+    <text font-family="'Helvetica'" font-size="1.7778" fill="currentColor" transform="matrix(1 0 0 1 -102.194 48.2646)" style="white-space: pre;">100px (artboard size)</text>
+    <text font-family="'Helvetica'" font-size="1.7778" fill="currentColor" transform="matrix(1 0 0 1 -102.194 51.9688)" style="white-space: pre;">Scale your icon to fill as much of </text>
+    <text font-family="'Helvetica'" font-size="1.7778" fill="currentColor" transform="matrix(1 0 0 1 -102.194 54.1905)" style="white-space: pre;">the Safe Area as possible (within </text>
+    <text font-family="'Helvetica'" font-size="1.7778" fill="currentColor" transform="matrix(1 0 0 1 -102.194 56.4131)" style="white-space: pre;">the guides)</text>
+    <rect fill="none" x="-70.713" y="40.37" width="25.926" height="24.074"/>
+    <text font-family="'Helvetica-Bold'" font-size="2.2222" fill="currentColor" transform="matrix(1 0 0 1 -70.7127 41.9688)" style="white-space: pre;">Ungroup</text>
+    <text font-family="'Helvetica'" font-size="1.7778" fill="currentColor" transform="matrix(1 0 0 1 -70.7127 45.6719)" style="white-space: pre;">If your design has more than one </text>
+    <text font-family="'Helvetica'" font-size="1.7778" fill="currentColor" transform="matrix(1 0 0 1 -70.7127 47.8945)" style="white-space: pre;">shape, make sure to ungroup.</text>
+    <rect fill="none" x="-38.12" y="40.37" width="25.926" height="24.074"/>
+    <text font-family="'Helvetica-Bold'" font-size="2.2222" fill="currentColor" transform="matrix(1 0 0 1 -38.1199 41.9688)" style="white-space: pre;">Save as</text>
+    <text font-family="'Helvetica'" font-size="1.7778" fill="currentColor" transform="matrix(1 0 0 1 -38.1199 45.6719)" style="white-space: pre;">Save as .SVG and make sure </text>
+    <text font-family="'Helvetica'" font-size="1.7778" fill="currentColor" transform="matrix(1 0 0 1 -38.1199 47.8945)" style="white-space: pre;">“Use Artboards” is checked.</text>
+    <text font-family="'Helvetica'" font-size="1.906" fill="currentColor" transform="matrix(1.0074 0 0 1 -94.0776 20.0698)" style="white-space: pre;">100px</text>
+    <text font-family="'Helvetica-Bold'" font-size="3.812" fill="currentColor" transform="matrix(1.0074 0 0 1 -31.4541 26.2964)" style="white-space: pre;">.SVG</text>
+    <rect fill="currentColor" x="-94.797" y="23.196" width="7.601" height="7.544"/>
+    <rect fill="currentColor" x="-94.77" y="20.938" width="0.387" height="1.731"/>
+    <rect fill="currentColor" x="-87.611" y="20.938" width="0.387" height="1.731"/>
+    <rect fill="currentColor" x="-95.157" y="21.361" width="8.321" height="0.424"/>
+    <g fill="currentColor">
+      <rect fill="currentColor" x="-63.161" y="22.477" width="7.633" height="7.523"/>
+      <rect fill="currentColor" x="-57.979" y="18.672" width="2.45" height="2.416"/>
+    </g>
+    <rect fill="currentColor" stroke="#ffffff" stroke-miterlimit="10" x="-133.306" y="14.074" width="22.222" height="22.222"/>
+    <rect fill="currentColor" stroke="#ffffff" stroke-miterlimit="10" x="-102.194" y="14.074" width="22.222" height="22.222"/>
+    <rect fill="currentColor" stroke="#ffffff" stroke-miterlimit="10" x="-70.343" y="14.074" width="22.222" height="22.222"/>
+    <rect fill="currentColor" stroke="#ffffff" stroke-miterlimit="10" x="-37.75" y="14.074" width="22.222" height="22.222"/>
+  </g>
+  <text font-family="'HelveticaNeue-Bold'" font-size="3.7037" fill="currentColor" transform="matrix(1 0 0 1 14.2599 117.444)" style="white-space: pre;">Created by Araz Murat Ak</text>
+  <text font-family="'HelveticaNeue-Bold'" font-size="3.7037" fill="currentColor" transform="matrix(1 0 0 1 14.2599 121.148)" style="white-space: pre;">from the Noun Project</text>
+  <path d="M 81.032 50 c 0 1.776 -1.439 3.215 -3.215 3.215 H 17.795 c -1.776 0 -3.215 -1.439 -3.215 -3.215 l 0 0 c 0 -1.776 1.439 -3.215 3.215 -3.215 h 60.023 C 79.593 46.785 81.032 48.224 81.032 50 L 81.032 50 Z" style="fill: rgb(255, 255, 255);"/>
+  <path d="M 80.091 52.273 c -1.256 1.256 -3.291 1.256 -4.547 0 L 65.435 42.165 c -1.256 -1.256 -1.256 -3.291 0 -4.547 l 0 0 c 1.256 -1.256 3.291 -1.256 4.547 0 l 10.109 10.109 C 81.346 48.982 81.346 51.018 80.091 52.273 L 80.091 52.273 Z" style="fill: rgb(255, 255, 255);"/>
+  <path d="M 65.435 62.382 c -1.256 -1.256 -1.256 -3.291 0 -4.547 l 10.109 -10.109 c 1.256 -1.256 3.291 -1.256 4.547 0 l 0 0 c 1.256 1.256 1.256 3.291 0 4.547 L 69.982 62.382 C 68.726 63.638 66.691 63.638 65.435 62.382 L 65.435 62.382 Z" style="fill: rgb(255, 255, 255);"/>
+</svg>
