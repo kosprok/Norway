@@ -522,6 +522,7 @@ a.schedule_more_video {
 .contacts_details_text_center {
     color: #a9a9a9;
 }
+
 .contacts_write, .contacts_visit, .contacts_call {
     background: rgba(0, 0, 0, 0.65);
     text-align: center;
