@@ -1,0 +1,591 @@
+:root {
+    --white: #ffffff;
+    --red: #ee2e14;
+    --gray: #505155;
+    --light-gray: #6f7380;
+    --white-gray: #a9a9a9;
+    --blue: #14a9ee;
+    --black: #232428;
+    --font-family-serif: 'Playfair Display', serif;
+    scroll-behavior: smooth;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    /* background-color: #232428; */
+    background-color: rgb(107, 102, 86);
+}
+
+ol, ul {
+    list-style: none;
+}
+
+span, .label, h1, h2, h3, h4, h5, h6 {
+    color: var(--white);
+}
+
+.dash_red {
+    color: var(--red);
+}
+
+.dash_white {
+    color: var(--white);
+    margin-left: 10px;
+}
+
+.color_blue {
+    color: var(--blue)!important;
+}
+
+.color_blue {
+    color: var(--blue);
+}
+
+.color_white {
+    color: var(--white);
+}
+
+.label {
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: .03em;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 24px;
+}
+
+.wrap_cover {
+    background: url('../img/bg/promo_bg.png') no-repeat 91.56% 51.56% / cover;
+}
+
+.navbar {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+nav .navbar-collapse {
+    text-align: center!important;
+}
+
+nav .container .nav-item a {
+    color: var(--white);
+    font-size: 15px;
+    font-weight:600;
+    text-decoration:none;
+    display: inline-block;
+    position: relative;
+}
+
+nav .container .navbar-brand img {
+    max-width: 188px;
+    height: auto;
+}
+
+nav .join-us_btn {
+    border-width: 2px;
+    border-radius: 0;
+    border-color: var(--white);
+    border-style: solid;
+    word-break: break-word;
+    vertical-align: middle;
+}
+
+nav .navbar-nav .join-us_btn img {
+    display: inline-block;
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+nav .navbar-nav a.nav-link.btn {
+    padding: 0!important;
+}
+
+nav .navbar-nav .join-us_btn {
+    margin-left: 0.3rem;
+    padding: 0.25rem 2.5rem 0.25rem 0.7rem!important;
+}
+
+nav .container .me-0 {
+    margin-left: auto !important;
+}
+
+nav .container .nav-link {
+    text-align: center;
+}
+
+nav .navbar-toggler:focus {
+    color: transparent;
+}
+
+nav .navbar-toggler:hover {
+    color: transparent;
+}
+
+nav .navbar-expand-lg {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.promo {
+    padding-top: 140px;
+    padding-bottom: 90px;
+}
+
+.promo h1 {
+    font-size: 1125%;
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+    text-decoration: none;
+    font-style: normal;
+    letter-spacing: 0;
+}
+
+.promo .promo_play_icon {
+    display: inline-block;
+    vertical-align: middle;
+    width: 20px;
+    height: 24px;
+    word-break: break-word;
+}
+
+.promo .col-md-5 a, .dash_white {
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: .03em;
+    line-height: 1.6;
+    color: var(--white);
+}
+
+.promo .col-md-12, .col-md-5, .col-md-3, .col-md-4 {
+    padding-top: 30px;
+}
+
+.promo .promo_schedule .promo_header {
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.promo .promo_schedule .promo_subheader {
+    font-size: 13px;
+    font-weight:500;
+}
+
+.promo .promo_schedule .promo_subheader .promo_subheader_bold {
+    font-weight:700;
+}
+
+.promo .promo_schedule .promo_subheader_text {
+    color: rgba(255,255,255,0.75);
+    font-size: 13px;
+    font-weight:500;
+}
+
+.promo .promo_schedule .promo_subheader_more {
+    color: var(--white);
+    font-size: 14px;
+    font-weight:700;
+    text-decoration:none;
+}
+
+.promo_label, .about_label, .route_label, .about-norway_label, .places_label, .stunning_spots_label, .faq_label, .contact_label, .reviews_label {
+    color: var(--white);
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.39px;
+    line-height: 20.8px;
+    text-transform: uppercase;
+}
+
+.about_label, .route_label, .about-norway_label, .places_label, .stunning_spots_label, .faq_label {
+    color: var(--light-gray);
+}
+
+.about-us .about_us_padding {
+    padding-top: 130px;
+    padding-bottom: 30px;
+}
+
+.about-us .col-md-6 {
+    margin-top: 30px;
+    padding: 0 15px;
+}
+
+.about-us .about_head {
+    margin-top: 20px;
+}
+
+.about-us .col-md-6 .about_head span, h2, .about_text {
+    color: var(--gray)!important;
+}
+
+.about-us .col-md-6 .about_head span, h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 45px;
+    font-weight: 700;
+    letter-spacing: 1.35px;
+    line-height: 54px;
+    display: inline;
+}
+
+.about-us .col-md-6 .about_text{
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: justify;
+}
+
+.about-us .col-md-6 .about_head span.color_blue {
+    color: var(--blue)!important;
+}
+
+.about-us .start_section {
+    background: url('../img/bg/about-us_start_section.jfif') no-repeat 96.25% 58.07% / cover;
+    padding-top: 90px;
+    padding-bottom: 400px;
+}
+
+.about-us .start_section .row .col-md-4 {
+    margin-top: 50px;
+    padding: 25px 35px;
+    background-color: var(--white);
+    max-width: 370px;
+    max-height: 350px;
+}
+
+.about-us .start_section .row .start_img img {
+    max-width: auto;
+    max-height: 107px;
+}
+
+.about-us .start_section .row .start_img .start_header {
+    color: #232428!important;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 38px;
+}
+
+.about-us .start_section .row .start_img .start_text {
+    color: #505155!important;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.route {
+    background: url('../img/bg/route_bg.png') no-repeat 48.13% 50% / cover;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    color:white;
+}
+
+.route .col-lg-5, .col-xl-6, .col-lg-7, .col-xl-6 {
+    margin-top: 30px;
+}
+
+.route .col-lg-5, .col-xl-6 img {
+    object-fit: contain;
+    object-position: 50% 50%;
+    max-width: 95%;
+}
+
+.route .col-lg-7, .col-xl-6 {
+    padding: 40px 30px;
+}
+
+.route .route_label {
+    color: rgba(255,255,255,0.6);
+}
+
+.route .route_head h3 {
+    font-family: 'Playfair Display', serif;
+    color: var(--gray);
+    font-size: 45px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.route .route_head .color_white {
+    font-family: 'Playfair Display', serif;
+}
+
+.route .route_subheader {
+    color: rgba(255,255,255,0.6);
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 28.9px;
+    letter-spacing: .03em;
+    margin-top: 50px;
+}
+
+.route .reasons_text_header {
+    color: var(--white);
+    font-size: 21px;
+    font-weight: 700;
+    letter-spacing: 0.63px;
+    line-height: 37.8px;
+}
+
+.route .reasons_text_subheader {
+    color: var(--white-gray);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.route .reasons_round img {
+    height: 40px;
+    width: 40px;
+    margin: 15px;
+}
+
+.route .reasons_container {
+    position: relative;
+    margin: 7.5px;
+    padding: 7.5px;
+    margin-top: 20px;
+}
+
+.route .reasons_round {
+    position: absolute;
+    border-radius:50%;
+    background: rgba(255, 255, 255, 0.05);
+}
+
+.route .reasons_description {
+    margin-left: 85px;
+}
+
+.about-norway {
+    padding-top: 120px;
+    padding-bottom: 60px;
+}
+
+.about-norway .col-md-4.mr-auto img {
+    margin: 0;
+    vertical-align: top;
+    border-style: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1920px) {
+    .wrap_cover {
+        background: url('../img/bg/promo_bg.png') no-repeat 91.56% 51.56% / cover;
+    }
+}
+
+@media (max-width: 767px) {
+    nav.navbar.navbar-expand-lg.navbar-custom {
+        background-color:black;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width:991px) {
+    nav.navbar.navbar-expand-lg.navbar-custom {
+        background-color:black;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width:991px) {
+    h1 {
+        font-size:125px!important;
+    }
+}
+
+@media (max-width: 767px) {
+    h1 {
+        font-size:72px!important;
+    }
+}
+
+@media (max-width: 320px) {
+    h1 {
+        font-size:43px!important;
+    }
+}
+
+@media (max-width: 250px) {
+    h1 {
+        font-size:37px!important;
+    }
+}
+
+@media (min-width: 768px) and (max-width:991px) {
+    .promo {
+        padding-top: 90px;
+        padding-bottom: 90px;
+    }
+}
+
+@media (max-width: 767px) {
+    .promo {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+}
+
+@media (min-width: 768px) and (max-width:991px) {
+    .promo .col-md-12  {
+            padding-top: 0;
+    }
+}
+
+@media (max-width: 767px) {
+    .promo .col-md-12  {
+        padding-top: 0;
+    }
+}
+
+
+@media (max-width: 767px) {
+    .about-us .col-md-6 .about_head span, h2 {
+    font-size: 34px;
+    letter-spacing: 1.02px;
+    line-height: 41px;
+    }
+}
+
+@media (max-width: 320px) {
+    .about-us .col-md-6 .about_head span, h2 {
+    font-size: 28px;
+    letter-spacing: 0.9px;
+    line-height: 35px;
+    }
+}
+
+@media (max-width: 767px) {
+    .about-us .start_section {
+        padding-top: 60px;
+        padding-bottom: 150px;
+    }
+}
+
+@media (max-width: 320px) {
+    .about-us .start_section {
+        padding-top: 50px;
+        padding-bottom: 90px;
+    }
+}
+
+@media (max-width: 767px) {
+    .about-us .about_us_padding {
+        padding-top: 50px;
+        padding-bottom: 30px;
+    }
+}
+
+@media (max-width: 320px) {
+    .about-us .about_us_padding {
+        padding-top: 30px;
+        padding-bottom: 25px;
+    }
+}
+
+@media (max-width: 767px) {
+    .route {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+}
+
+@media (max-width: 320px) {
+    .route {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

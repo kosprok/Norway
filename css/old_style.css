@@ -1,0 +1,597 @@
+:root {
+    --white: #ffffff;
+    --red: #ee2e14;
+    --gray: #505155;
+    --light-gray: #6f7380;
+    --white-gray: #a9a9a9;
+    --blue: #14a9ee;
+    --black: #232428;
+    --font-family-serif: 'Playfair Display', serif;
+    font-family: 'Roboto', sans-serif;
+    background-color: #a9a9a9;
+    scroll-behavior: smooth;
+}
+
+html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style-type: none;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.home img {
+    width: 188px; 
+    height: auto;
+}
+
+.promo {
+    background-image: url('../img/bg/promo_bg.png');
+    background-size: cover;
+    background-position: center;
+
+}
+
+h1  {
+    font-family: 'Playfair Display', serif;
+    color: var(--white);
+    font-size: 180px;
+    font-weight: 600;
+}
+
+.dash_red {
+    color: var(--red);
+}
+
+.promo_label, .about_label, .route_label, .about-norway_label, .places_label, .stunning_spots_label, .faq_label, .contact_label, .reviews_label {
+    color: var(--white);
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.39px;
+    line-height: 20.8px;
+    text-transform: uppercase;
+}
+
+.about_label, .route_label, .about-norway_label, .places_label, .stunning_spots_label, .faq_label {
+    color: var(--light-gray);
+}
+
+a.nav_link {
+    color: var(--white);
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+a.schedule_more_video {
+    color: var(--white);
+}
+
+.promo_schedule img {
+    height: 240px;
+}
+
+.promo_schedule .promo_title{
+    color: var(--white);
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.promo_schedule .promo_subtitle{
+    color: var(--white);    
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.promo_schedule .promo_subtitle .promo_subtitle_bolt {
+    font-weight: 700;
+}
+
+.promo_schedule .promo_text{
+    color: rgba(255,255,255,0.75);
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.promo_schedule .promo_more .schedule_more {
+    color: var(--white); 
+    font-weight: 700;
+}
+
+.about-us {
+    background-color: var(--white);
+}
+
+
+.about-us .about_head h2 {
+    font-family: 'Playfair Display', serif;
+    color: var(--gray);
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.about-us .about_head {
+    font-family: 'Playfair Display', serif;
+    color: var(--gray);
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.about-us .about_head .text_color_blue {
+    color: var(--blue);
+}
+
+.about-us .about_text {
+    color: var(--gray);
+    font-size: 19px;
+    font-weight: 400;
+}
+
+.about-us .start_section {
+    background-image: url('../img/bg/about-us_start_section.jfif');
+    background-size: cover;
+    background-position: center;
+}
+
+.about-us .start_section {
+    text-align: center;
+}
+
+.about-us .start_section .start_img img {
+    object-fit: contain;
+    object-position: 0% 0%;
+}
+
+
+.about-us .start_section .start_contact, .start_date, .start_travel {
+    background-color: var(--white);
+    color: var(--black);
+    font-size: 24px;
+    font-weight: 500;
+    width: 370px;
+    text-align: center;
+    display: inline-block;
+    min-width: 320px;
+    margin: 30px 0 0 0;
+    padding: 0 15px 0 15px;
+}
+
+.about-us .start_section .start_contact .start_text {
+    color: var(--gray);
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.about-us .start_section .start_date .start_text {
+    color: var(--gray);
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.about-us .start_section .start_travel .start_text {
+    color: var(--gray);
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.route {
+    background-image: url('../img/bg/route_bg.png');
+}
+
+.route .route_picture img {
+    width: 570px;
+    height: 608px;
+}
+
+.route .route_text .route_head h3 {
+    font-family: 'Playfair Display', serif;
+    color: var(--gray);
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.route_white_text {
+    color: var(--white);
+}
+
+.route .route_text .route_subheader {
+    color: rgba(255,255,255,0.6);
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.route .reasons_text_header {
+    color: var(--white);
+    font-size: 21px;
+    font-weight: 700;
+}
+
+.route .reasons_text_subheader {
+    color: var(--white-gray);
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.about-norway {
+    background-color: var(--white);
+}
+
+.about-norway_head, .places_head, .stunning_spots_head h5, .faq_head {
+    font-family: 'Playfair Display', serif;
+    color: var(--gray);
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.about-norway_text {
+    color: var(--gray);
+    font-size: 19px;
+    font-weight: 400;
+}
+
+.about-norway_text_ending, .about-norway_text_ending h4 {
+    color: var(--gray);
+    font-size: 19px;
+    font-weight: 400;
+}
+
+.about-norway_stat_items_nubers {
+    color: var(--black);
+    font-size: 60px;
+    font-weight: 500;
+}
+
+.about-norway_stat_items_texts {
+    color: var(--gray);
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.about-norway_video_text_question {
+    color: var(--white);
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.places {
+    background-color: var(--white);
+}
+
+.places_text {
+    color: var(--gray);
+    font-size: 19px;
+    font-weight: 400;
+}
+
+.places_details_label h4{
+    color: var(--light-gray);
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.places_details_head {
+    font-family: 'Playfair Display', serif;
+    color: var(--gray);
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.places_details_days {
+    color: var(--red);
+    font-size: 19px;
+    font-weight: 700;
+}
+
+.places_details_location {
+    color: var(--gray);
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.places_details_subheader {
+    color: #707070;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.places_details_text {
+    color: var(--gray);
+    font-size: 15px;
+    font-weight: 400;  
+}
+
+.stunning_spots {
+    background-color: var(--black);
+}
+
+.stunning_spots_text {
+    color: var(--white);
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.stunning_spots_quote_text {
+    font-family: 'Playfair Display', serif;
+    color: var(--white);
+    font-size: 21px;
+    font-weight: 600;
+}
+
+.stunning_spots_quote_author {
+    color: rgba(255,255,255,0.6);
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.faq_text, .contact_text {
+    color: rgba(255,255,255,0.6);
+    font-size: 19px;
+    font-weight: 400;
+}
+
+.faq_text h5 {
+    color: rgba(255,255,255,0.6);
+    font-size: 19px;
+    font-weight: 400;
+}
+
+.faq summary {
+    color: var(--white);
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.faq .questions-answers p {
+    color: var(--white-gray);
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.faq {
+    background-color: var(--black);
+}
+
+.contact {
+    background-image: url('../img/bg/contact_bg.png');
+}
+
+.contact_form, .contact_map {
+    background-color: var(--black);
+    height: 753px;
+    width: 570px;
+
+}
+
+.contact_label {
+    color: rgba(255,255,255,0.6);
+}
+
+.contact_head {
+    font-family: 'Playfair Display', serif;
+    color: var(--white);
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.contact .contact_form {
+   text-align: center;
+   padding: 70px 60px 70px 60px;
+
+}
+
+
+.contact_text {
+    font-size: 17px;
+}
+
+.contact .contact_fields form {
+    /* position: relative; */
+    color: #fff;
+
+}
+
+.contact .contact_fields input, [type='date'] {
+    appearance: none;
+    background: none;
+    box-shadow: none;
+    text-overflow: ellipsis;
+    border: 0;
+    font-family: inherit;
+    color: #707070;
+    border-color:#f7f7f7;
+    background-color:rgb(45, 46, 52);
+    width: 100%;
+    min-width: 320px;
+    margin-top: 12px;
+    padding: 14px 20px;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 0;
+    line-height: 1.2;
+    box-sizing: border-box;
+}
+
+.contact .contact_fields ul li [type='text'] {
+    /* border-color:#f7f7f7;
+    background-color:rgb(45, 46, 52); */
+}
+
+.form_submit_btn {
+    width: 450px;
+    height: 44px;
+    border:none;
+    background-color: var(--blue);
+    /* border-radius: 4px; */
+    border: none;
+    color: var(--white);
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    outline: none;
+}
+
+.send_form_button_icon {
+    width: 24px;
+    height: 24px; 
+} 
+
+.reviews {
+    background-image: url('../img/bg/reviews_bg.png');
+}
+
+.reviews_label, .blog_label {
+    color: var(--gray);
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 0.39px;
+    line-height: 20.8px;
+    text-transform: uppercase;
+}
+
+.reviews_head h6, .blog_head {
+    font-family: 'Playfair Display', serif;
+    color: var(--gray);
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.reviews_text, .blog_text {
+    color: var(--black);
+    font-size: 19px;
+    font-weight: 400;  
+}
+
+.blog {
+    background-color: var(--white);
+}
+
+.blog_posts {
+    display: flex;
+    width: 1170px;
+    height: 450px;
+    justify-content: center; 
+    font-size: 24px; 
+    font-weight: 500;
+    align-items: center; 
+    border: 1px solid rgba(33, 39, 54, 0.12);
+}
+
+.contacts {
+    background-image: url('../img/bg/contact-us_bg.jfif');
+    background-size: cover;
+    background-position: center;
+    padding-top: 180px;
+    padding-bottom: 80px;
+}
+
+.contacts_information {
+    text-align: center;
+}
+
+.contacts .contacts_information img {
+    width: 70px;
+    height: 70px;
+}
+
+.contacts_main_text {
+    color: var(--white);
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.contacts_details_text, .contacts_details_text a {
+    color: var(--white);
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.contacts_details_text_center {
+    color: #a9a9a9;
+}
+.contacts_write, .contacts_visit, .contacts_call {
+    background: rgba(0, 0, 0, 0.65);
+    text-align: center;
+    margin: 15px 15px 0 15px;
+    display: inline-block;
+    min-width: 300px;
+    padding: 80px 30px 80px 30px;
+}
+
+.contacts_main_text, .contacts_details_text {
+    margin-top: 20px;
+}
+
+.info {
+    background-color: black;
+}
+
+.info_links {
+    padding: 60px 15px 15px 15px;
+    text-align: center;
+}
+
+.info_footer_divider {
+    height:1px;
+    width:70%;
+    margin: 15px 0 15px 0;
+    background-color:rgba(255, 36, 40, 0.0)
+}
+
+.info_footer_menu {
+    text-align: center;
+}
+
+.info .info_links img {
+    width: 176px;
+    height: auto;
+}
+.info .nav_item {
+    display: inline-block;
+}
+
+.info .nav_item {
+    margin:  5px 7.5px 5px 7.5px;
+}
+
+.info .nav_item a {
+    color: rgba(255, 255, 255, 0.4);
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.info .copyrights_section .copyrights_author, .copyrights_rights {
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--white);
+    letter-spacing: 0.39px;
+    line-height: 20.8px;
+}
+
+.info .copyrights_section .copyrights_media {
+    width:22px;
+    height:22px;
+}
+
+.copyrights_information, .copyrights_media {
+    display: flex;
+    justify-content: space-between;
+}
+
+.copyrights_media {
+    display: flex;
+    justify-content: center;
+}
