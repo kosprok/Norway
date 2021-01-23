@@ -30,11 +30,11 @@ ol, ul {
     list-style: none;
 }
 
-.dash_red {
+.dash_section {
     color: var(--red);
 }
 
-.dash_white {
+.dash_text {
     color: var(--white);
     margin-left: 10px;
 }
@@ -152,7 +152,7 @@ nav .navbar-expand-lg {
     word-break: break-word;
 }
 
-.promo .col-md-5 a, .dash_white {
+.promo .col-md-5 a, .dash_text {
     font-size: 13px;
     font-weight: bold;
     letter-spacing: .03em;
@@ -369,6 +369,149 @@ nav .navbar-expand-lg {
     vertical-align: top;
     border-style: none;
 }
+
+.places {
+    background: url('../img/bg/reviews_bg.png') no-repeat 50% 50% / cover;
+}
+
+.places .background_opacity {
+    background: rgba(255, 255, 255, 0.75);
+    padding-top: 60px;
+    padding-bottom: 130px;
+}
+
+.places .places_header {
+    margin-top: 30px;
+}
+
+.places .places_head {
+    font-family: var(--headers-font);
+    color: var(--gray);
+    font-size: 45px;
+    font-weight: 700;
+    letter-spacing: 1.35px;
+    line-height: 54px;
+    margin-top: 20px;
+}
+
+.places .places_text{
+    color: var(--gray);
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 32.3px;
+    margin-top: 25px;
+}
+
+.places nav {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.places nav a{
+    color: var(--white-gray);
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 28.9px;
+    letter-spacing: 0.51px;
+    padding: 15px 20px;
+}
+
+.places .nav-link.active, .nav-item.show .nav-link {
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: rgb(238, 46, 20);
+    border-left-color: transparent;
+    border-bottom-width: 2px;
+}
+
+.places .nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-left-color: transparent;
+    color: var(--gray);
+}
+
+.places .places_details {
+    padding: 60px 58px;
+}
+
+
+
+
+
+
+
+.places .places_details .places_details_label, h4 {
+    color: var(--light-gray);
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 20.8px;
+    letter-spacing: 0.39px;
+    margin-top: 48px;
+}
+
+.places .places_details_head {
+    font-family: var(--headers-font);
+    color: var(--gray);
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 47.88px;
+    margin-top: 20px;
+}
+
+.places .places_details_overnight {
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+
+}
+
+.places .places_details_days {
+    color: var(--red);
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 32.3px;
+    flex-basis: 33.3%;
+}
+
+.places .places_details_location {
+    color: var(--gray);
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.places .places_details_subheader {
+    color: #707070;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.51px;
+    margin-top: 30px;
+}
+
+.places .places_details_highlights {
+    margin-top: 20px;
+}
+
+.places .places_details_image img {
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+
+
+
+.places .places_details_text {
+    color: #707070;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+
+
+
+
 
 
 
