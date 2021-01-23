@@ -6,7 +6,7 @@
     --white-gray: #a9a9a9;
     --blue: #14a9ee;
     --black: #232428;
-    --font-family-serif: 'Playfair Display', serif;
+    --headers-font: 'Playfair Display', serif;
     scroll-behavior: smooth;
 }
 
@@ -30,10 +30,6 @@ ol, ul {
     list-style: none;
 }
 
-span, .label, h1, h2, h3, h4, h5, h6 {
-    color: var(--white);
-}
-
 .dash_red {
     color: var(--red);
 }
@@ -41,18 +37,6 @@ span, .label, h1, h2, h3, h4, h5, h6 {
 .dash_white {
     color: var(--white);
     margin-left: 10px;
-}
-
-.color_blue {
-    color: var(--blue)!important;
-}
-
-.color_blue {
-    color: var(--blue);
-}
-
-.color_white {
-    color: var(--white);
 }
 
 .label {
