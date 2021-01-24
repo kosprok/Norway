@@ -15,6 +15,7 @@
 <body>
 
     <div class="wrap_cover">
+    <button class="scrollToTopBtn"></button>
     <nav class="navbar navbar-expand-lg navbar-custom">
         <div class="container">
             <a class="navbar-brand" href="#"><img src="img/header_logo.png" alt="navbar_logo"></a>
@@ -267,33 +268,17 @@
                 </div>
             </div>
 
-            <div class="row">
-                <div class="col-md-12">
-                    <!-- __________________________________________________________________________________ -->
-                    <div id="banner_v"class="banner_v">
-                        <div class="content_v">
-                            <img src="img/about-norway_fishing.jfif" alt="about-norway_fishing" class="img-fluid">
-                            <p>Want to go fishing in Tromsø, Norway?</p>
-                            <a href="#banner_v" onclick="toggle();">qwe</a>
-                        </div>
-                    </div>
-                    <div class="trailer">
-                        <video src="video/videoplayback.mp4" controls="true"></video>
-                        <img src="icons/close_icon.svg" alt="" class="close" onclick="toggle();">
-                    </div>
-
-
-
-
-                    asdasd
-                    <br><br><br>
-                    <!-- __________________________________________________________________________________ -->
-                    <div id="video_fishing" class="about-norway_video">
-                        <img src="img/about-norway_fishing.jfif" alt="about-norway_fishing" class="img-fluid">
+                <div id="banner_v "class="banner_v">
+                    <div class="content_v">
+                        <a href="#banner_v" onclick="toggle();"><img src="icons/about-norway_play_icon.svg" alt=""> </a>
+                        <p>Пориньте в загадковий світ Норвегії, клацніть на кнопку!</p>
                     </div>
                 </div>
-            </div>
-            
+                <div class="trailer">
+                    <video src="video/videoplayback.mp4" controls="true"></video>
+                    <img src="icons/close_icon.svg" alt="close_icon" class="close" onclick="toggle();">
+                </div>
+           
         </div>
     </section>
 
@@ -615,7 +600,7 @@
     </section>
 
 
-    
+
 
 
 
@@ -635,6 +620,7 @@
 
 
     <script src="js/player.js"></script>
+    <script src="js/backtotop.js"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 
