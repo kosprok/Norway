@@ -368,10 +368,77 @@ nav .navbar-expand-lg {
     margin: 0;
     vertical-align: top;
     border-style: none;
+    margin-top: 30px;
 }
 
+.about-norway .about-norway_header {
+    font-family: 'Playfair Display', serif;
+    font-size: 45px;
+    font-weight: 700;
+    letter-spacing: 1.35px;
+    line-height: 54px;
+    display: inline;
+    color: var(--gray);
+    margin-top: 20px;
+}
+
+.about-norway .about-norway_description, .about-norway_text_ending {
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 32.3px;
+    color: var(--gray);
+}
+
+.about-norway .about-norway_stat_items_nubers {
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 60px;
+    color: var(--black);
+    text-align: center;
+}
+
+.about-norway .about-norway_stat_items_texts {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: var(--gray);
+    margin-top: 20px;
+}
+
+.about-norway .mt30 {
+    margin-top: 60px;
+}
+
+.about-norway .about-norway_video {
+    margin-top: 55px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .places {
-    background: url('../img/bg/reviews_bg.png') no-repeat 50% 50% / cover;
+    background: url('../img/bg/reviews_bg.png') 50% 60.16% / cover no-repeat;;
 }
 
 .places .background_opacity {
@@ -499,11 +566,27 @@ nav .navbar-expand-lg {
     height: 100%;
     background-repeat: no-repeat;
     object-fit: cover;
-    object-position: 45.137% 0%;
 }
 
 .places .places_details_highlights {
     margin-top: 20px;
+    position: relative;
+}
+
+.places .places_details_highlights ul {
+    padding-left: 0;
+}
+
+.places .places_details_img {
+    position: absolute;
+}
+
+.places .places_details_benefits {
+    margin-left: 40px;
+}
+
+.places .mb16 {
+    margin-bottom: 16px;
 }
 
 .places .places_details_text {
@@ -706,6 +789,20 @@ nav .navbar-expand-lg {
     .route {
         padding-top: 70px;
         padding-bottom: 70px;
+    }
+}
+
+@media (max-width: 767px) {
+    .places .tab-content .places_details_image img {
+        position: relative;
+        max-height: 390px;
+    }
+}
+
+@media (max-width: 320px) {
+    .places .tab-content .places_details_image img {
+        position: relative;
+        max-height: 195px;
     }
 }
 
