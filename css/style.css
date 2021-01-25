@@ -469,84 +469,21 @@ nav .navbar-expand-lg {
     margin-top: 60px;
 }
 
-.about-norway .about-norway_video {
+
+
+
+
+
+.promo_video {
+    position: relative;
+    text-align: -webkit-center;
+    display: flex;
     margin-top: 55px;
 }
 
-.about-norway .banner_v {
-    position: relative;
-    width: 100%;
-    min-height: 70vh;
-    display: flex;
-    justify-content: center;
-    align-items:center;
-    background: url('../img/about-norway_fishing.jfif') 50% 60.16% / cover no-repeat;
-    margin-top: 50px;
+.vjs-poster {
+    background-size: cover;
 }
-
-.about-norway .content_v {
-    /* max-width: 100%; */
-    text-align: center;
-}
-
-.about-norway .banner_v .content_v img {
-    height: 70px;
-    width: 70px;
-}
-
-.about-norway .banner_v .content_v p {
-    color: var(--white);
-    font-size: 13px;
-    line-height: 20px;
-    font-weight: 500;
-    letter-spacing: 0.39px;
-    margin-top: 25px;
-    /* text-transform: uppercase; */
-
-}
-
-.about-norway .banner_v .content_v a {
-    position: relative;
-}
-
-.about-norway .trailer {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    z-index: 10000;
-    background: rgba(0,0,0,0.96);
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items:center;
-    visibility: hidden;
-    opacity: 0;
-}
-
-.about-norway .trailer.active {
-    visibility: visible;
-    opacity: 1;
-}
-
-.about-norway .trailer video {
-    position: relative;
-    /* max-width: 900px; */
-    outline: none;
-
-}
-
-.about-norway .close {
-    position: absolute;
-    top: 30px;
-    right: 30px;
-    cursor: pointer;
-    max-width: 32px;
-}
-
-
-
 
 
 
@@ -950,3 +887,35 @@ nav .navbar-expand-lg {
         min-height: 40vh;
     }
 }
+
+
+
+@media (max-width: 767px) {
+    .my-video-dimensions {
+        width: 841.5px;
+        height: 444.42px;
+    }
+}
+
+@media (max-width: 767px) {
+    .my-video-dimensions {
+        width: 651.95px;
+        height: 344.31px;
+    }
+}
+
+
+@media (max-width: 375px) {
+    .my-video-dimensions {
+        width: 318.75px;
+        height: 168.34px;
+    }
+}
+
+@media (max-width: 320px) {
+    .my-video-dimensions {
+        width: 272px;
+        height: 143.65px;
+    }
+}
+
