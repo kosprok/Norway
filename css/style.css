@@ -639,8 +639,7 @@ nav .navbar-expand-lg {
 
 .spots_images {
     display: flex;
-    justify-content: center;
-    text-align:center;
+
     
 }
 
@@ -648,7 +647,6 @@ nav .navbar-expand-lg {
     /* width: 250px;
     height: 200px; */
     margin: 15px;
-    display: flex;
 }
 
 .spots_images .items img {
