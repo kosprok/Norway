@@ -315,25 +315,6 @@ nav .navbar-expand-lg {
     line-height: 24px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .route {
     background: url('../img/bg/route_bg.png') no-repeat 48.13% 50% / cover;
     padding-top: 80px;
@@ -469,11 +450,6 @@ nav .navbar-expand-lg {
     margin-top: 60px;
 }
 
-
-
-
-
-
 .promo_video {
     position: relative;
     text-align: -webkit-center;
@@ -484,27 +460,6 @@ nav .navbar-expand-lg {
 .vjs-poster {
     background-size: cover;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .places {
     background: url('../img/bg/reviews_bg.png') 50% 60.16% / cover no-repeat;;
@@ -571,12 +526,6 @@ nav .navbar-expand-lg {
     padding: 60px 58px;
 }
 
-
-
-
-
-
-
 .places .places_details .places_details_label, h4 {
     color: var(--light-gray);
     font-size: 13px;
@@ -629,6 +578,7 @@ nav .navbar-expand-lg {
 .places .tab-content .col-md-6 {
     position: relative;
 }
+
 .places .tab-content .places_details_image img {
     position: absolute;
     width: 100%;
@@ -665,14 +615,43 @@ nav .navbar-expand-lg {
     line-height: 24px;
 }
 
+.stunning_spots {
+    background-color: var(--black);
+}
+
+.stunning_spots .stunning_spots_label {
+    color: rgba(255,255,255,0.6);
+}
+
+.stunning_spots .stunning_spots_head span, h5 {
+    font-family: var(--headers-font);
+    color: var(--white);
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.stunning_spots .stunning_spots_text {
+    color: var(--white);
+    font-size: 17px;
+    font-weight: 400;
+}
 
 
+.spots_images {
+    display: flex;
+    
+}
 
+.spots_images .items {
+    /* width: 250px;
+    height: 200px; */
+    margin: 15px;
+}
 
-
-
-
-
+.spots_images .items img {
+    width: 340px;
+    height: 290px;
+}
 
 
 
