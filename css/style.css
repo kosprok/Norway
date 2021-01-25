@@ -59,7 +59,7 @@ ol, ul {
 	right: 0.75rem;
 	bottom: 0.75rem;
     /* keep it at the top of everything else */
-    z-index: 1000;
+    z-index: 10000;
     /* hide with opacity */
     opacity: 0;
     /* also add a translate effect */
@@ -171,6 +171,15 @@ nav .navbar-expand-lg {
     text-decoration: none;
     font-style: normal;
     letter-spacing: 0;
+    color: var(--white);
+}
+
+.promo .label {
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 0.39px;
+    line-height: 21px;
+    color: var(--white);
 }
 
 .promo .promo_play_icon {
@@ -194,11 +203,13 @@ nav .navbar-expand-lg {
 }
 
 .promo .promo_schedule .promo_header {
+    color: var(--white);
     font-size: 17px;
     font-weight: 700;
 }
 
 .promo .promo_schedule .promo_subheader {
+    color: var(--white);
     font-size: 13px;
     font-weight:500;
 }
