@@ -22,10 +22,21 @@ $(function() {
               slidesToScroll: 1
             }
           },
-          // You can unslick at a given breakpoint now by adding:
-          // settings: "unslick"
-          // instead of a settings object
         ]
       });
 });
 
+
+// Parallax Scrolling
+const parallaxables = document.querySelectorAll(".wrap_cover");
+function runParallaxLoop() {
+  requestAnimationFrame(runParallaxLoop);
+  parallax();
+}
+function parallax() {
+  parallaxables.forEach((parallaxable) => {
+    let distance = window.scrollY * 0.7;
+    parallaxable.style.transform = `translate3d(0,-${distance}px, 0)`;
+  });
+}
+runParallaxLoop();

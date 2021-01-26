@@ -82,8 +82,8 @@ ol, ul {
 }
 
 .wrap_cover {
-    background: url('../img/bg/promo_bg.png') no-repeat 91.56% 51.56% / cover;
-    /* background-attachment: fixed; */
+    background: url('../img/bg/promo_bg.png') no-repeat 91.56% 36.56% / cover;
+    background-attachment: fixed;
 }
 
 .navbar {
@@ -619,7 +619,7 @@ nav .navbar-expand-lg {
     background-color: var(--black);
 }
 
-.stunning_spots .stunning_spots_label, {
+.stunning_spots .stunning_spots_label {
     color: rgba(255,255,255,0.6);
 }
 
