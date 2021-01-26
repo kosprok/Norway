@@ -27,6 +27,7 @@ $(function() {
 });
 
 
+
 // Parallax Scrolling
 const parallaxables = document.querySelectorAll(".wrap_cover");
 function runParallaxLoop() {
