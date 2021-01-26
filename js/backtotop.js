@@ -4,7 +4,7 @@ const rootElement = document.documentElement;
 function handleScroll() {
   // Do something on scroll
   const scrollTotal = rootElement.scrollHeight - rootElement.clientHeight;
-  if (rootElement.scrollTop / scrollTotal > 0.1) {
+  if (rootElement.scrollTop / scrollTotal > 0.07) {
     // Show button
     scrollToTopBtn.classList.add("showBtn");
   } else {

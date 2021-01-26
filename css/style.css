@@ -72,7 +72,6 @@ ol, ul {
 .showBtn {
     opacity: 1;
     transform: translateY(0);
-
 }
 
 .container {
@@ -84,6 +83,7 @@ ol, ul {
 
 .wrap_cover {
     background: url('../img/bg/promo_bg.png') no-repeat 91.56% 51.56% / cover;
+    /* background-attachment: fixed; */
 }
 
 .navbar {
@@ -619,7 +619,7 @@ nav .navbar-expand-lg {
     background-color: var(--black);
 }
 
-.stunning_spots .stunning_spots_label {
+.stunning_spots .stunning_spots_label, {
     color: rgba(255,255,255,0.6);
 }
 
@@ -639,8 +639,6 @@ nav .navbar-expand-lg {
 
 .spots_images {
     display: flex;
-
-    
 }
 
 .spots_images .items {
@@ -654,69 +652,188 @@ nav .navbar-expand-lg {
     height: 304px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media (max-width: 1920px) {
-    .wrap_cover {
-        background: url('../img/bg/promo_bg.png') no-repeat 91.56% 51.56% / cover;
-    }
+.stunning_spots_end {
+    padding-top: 50px;
+    padding-bottom: 60px;
 }
+
+.stunning_spots_end .wrapper_container {
+    margin-top: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.stunning_spots .stunning_spots_quote_icon {
+    text-align: center;
+}
+
+.stunning_spots .stunning_spots_quote_text {
+    font-family: var(--headers-font);
+    color: var(--white);
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 39.48px;
+    overflow-wrap: break-word;
+}
+
+.stunning_spots .stunning_spots_quote_author {
+    color: rgba(255,255,255,0.6);
+    font-size: 17px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.faq {
+    background-color: var(--black);
+    padding-top: 60px;
+    padding-bottom: 130px;
+}
+
+.faq .col-md-6 {
+    margin-top: 30px;
+    padding: 5px 45px;
+    position: relative;
+}
+
+.faq .faq_label {
+    color: rgba(255,255,255,0.6);
+}
+
+.faq .faq_head {
+    margin-top: 20px;
+}
+.faq .faq_head span {
+    font-family: var(--headers-font);
+    color: var(--white);
+    font-size: 45px;
+    font-weight: 700;
+    letter-spacing: 1.35px;
+    line-height: 54px;
+}
+
+.faq .faq_text {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 19px;
+    font-weight: 400;
+    margin-top: 25px;
+    line-height: 32.3px;
+}
+
+.faq .questions-answers {
+    margin-top: 25px;
+}
+
+.faq .accordion-button {
+    color: var(--white);
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: 0.51px;
+    line-height: 28.9px;
+    text-align: left;
+    padding: 20px 0;
+}
+
+.faq .accordion-button:focus {
+    box-shadow: 0 0 0 0.25rem rgba(0, 0, 0, 0);
+}
+
+.faq .accordion-button:not(.collapsed) {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.faq .accordion-button {
+    border-color: rgba(255, 255, 255, 0.2);
+}
+
+.faq .accordion-button::after {
+    background-image: url('../icons/faq_arrow.svg');
+}
+
+.faq .accordion-button:not(.collapsed)::after {
+    background-image: url('../icons/faq_arrow.svg');
+}
+
+.faq .accordion-collapse {
+    border-top-color: rgba(255, 255, 255, 0.2);
+    border-bottom-color: rgba(255, 255, 255, 0.2);
+    border-bottom-width: 1px;
+}
+
+.faq .accordion-flush .accordion-item:last-of-type .accordion-button.collapsed {
+    border-bottom-width: 1px;
+    border-bottom-color: rgba(255, 255, 255, 0.2);
+}
+
+.faq .accordion-body {
+    color: #a9a9a9;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    padding: 20px 0;
+}
+
+.faq img {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    object-position: 39.903% 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media (max-width: 767px) {
     nav.navbar.navbar-expand-lg.navbar-custom {
@@ -933,6 +1050,22 @@ nav .navbar-expand-lg {
     .spots_images .items img {
         width: 199px;
         height: 179px;
+    }
+}
+
+@media (max-width: 767px) {
+    .faq .col-md-6 .faq_head span {
+    font-size: 34px;
+    letter-spacing: 1.02px;
+    line-height: 41px;
+    }
+}
+
+@media (max-width: 320px) {
+    .faq .col-md-6 .faq_head span {
+        font-size: 28px;
+    letter-spacing: 0.9px;
+    line-height: 35px;
     }
 }
 

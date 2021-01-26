@@ -17,8 +17,7 @@
 </head>
 <body>
 
-    <div class="wrap_cover">
-    <button class="scrollToTopBtn"></button>
+    <div class="wrap_cover" id="wrap_cover">
     <nav class="navbar navbar-expand-lg navbar-custom">
         <div class="container">
             <a class="navbar-brand" href="#"><img src="img/header_logo.png" alt="navbar_logo"></a>
@@ -56,6 +55,8 @@
             </div>
         </div>
     </nav>
+    <button class="scrollToTopBtn"></button>
+
 
     <header>
         <section id="promo" class="promo">
@@ -608,6 +609,7 @@
 
     <section id="stunning_spots" class="stunning_spots">
         <div class="container">
+           
             <div class="stunning_spots_start">
                 <div class="stunning_spots_label"><span class="dash_section">━</span> приголомшливі місця</div>
                 <div class="stunning_spots_head">
@@ -640,21 +642,86 @@
                         <img src="img/stunning_spots_slides_6.jfif" alt="">
                     </div>
                 </div>
-                
-                
-
-
-
-
             </div>
 
             <div class="stunning_spots_end">
-                <div class="stunning_spots_quote_icon">
-                    <img src="icons/stunning_spots_quote.svg" alt="stunning_spots_quote.svg" class="stunning_spots_quote_icon" height="70">
+                <div class="row justify-content-md-center">
+                    <div class="col-md-8">
+                        <div class="wrapper_container">
+                            <div class="stunning_spots_quote_icon">
+                                <img src="icons/stunning_spots_quote.svg" alt="stunning_spots_quote.svg" class="stunning_spots_quote_icon" height="70">
+                            </div>
+                            <div class="stunning_spots_quote_text">"А ви готові впустити в своє серце справжню казку півночі? <br>
+                            Тоді відвідайте Норвегію - це справжнє задоволення бродити стежками тролів в піших турах, порибалити в неймовірних місцях і побачити казкове Північне Сяйво! Ця країна залишиться в моєму серці назавжди..."</div>
+                            <br>
+                            <div class="stunning_spots_quote_author">Ганс Кнут</div>
+                        </div>
+                    </div>
                 </div>
-                <div class="stunning_spots_quote_text">"А ви готові впустити в своє серце справжню казку півночі? Тоді відвідайте Норвегію - це справжнє задоволення бродити стежками тролів в піших турах, порибалити в неймовірних місцях і побачити казкове Північне Сяйво! Ця країна залишиться в моєму серці назавжди..."</div>
-                <br>
-                <div class="stunning_spots_quote_author">Ганс Кнут</div>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="faq" class="faq">
+        <div class="container">
+            <div class="row justify-content-lg-center">
+                <div class="col-md-6">
+                    <div class="faq_label"><span class="dash_section">━</span> FAQ</div>
+                    <div class="faq_head">
+                        <span>Ознайомтесь з нашими вміло </span>
+                        <span class="header_color_additional">розробленими турами</span>
+                    </div>
+                    <br><br>
+                    <div class="faq_text">Ми намагалися зробити наш тур по Норвегії максимально комфортним та цікавим. Якщо у вас все ще є питання, ви можете зв’язатися з нами безпосередньо або заповнити форму нижче.</div>
+                    <div class="questions-answers">
+                        <div class="accordion accordion-flush" id="accordionFlushExample">
+                            <div class="accordion-item">
+                            <p class="accordion-header" id="flush-headingOne">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                    Цей тур вимагає фізичної підготовки?
+                                </button>
+                            </p>
+                            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">Цей тур підходить для непідготовлених туристів. Ніякого сходження на скелю, ми обіцяємо.</div>
+                            </div>
+                            </div>
+                            <div class="accordion-item">
+                            <p class="accordion-header" id="flush-headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                    Чи зможу я побачити Північне Сяйво?
+                                </button>
+                            </p>
+                            <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">Ми не можемо вам цього обіцяти. Північне сяйво з’являється лише взимку за особливих обставин. Але ми полюватимемо на нього в Тромсе.</div>
+                            </div>
+                            </div>
+                            <div class="accordion-item">
+                            <p class="accordion-header" id="flush-headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                                    Чи можу я взяти з собою на екскурсію своїх дітей?
+                                </button>
+                            </p>
+                            <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">Так, ми пропонуємо знижку 50% для дітей.</div>
+                            </div>
+                            </div>
+                            <div class="accordion-item">
+                            <p class="accordion-header" id="flush-headingFour">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                                    Чи можу я приєднатися до вас не в Осло, а в іншому місті?
+                                </button>
+                            </p>
+                            <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">Залежно від погодних умов наш маршрут може змінитися, тому ми рекомендуємо починати разом з іншими туристами з Осло. Ми не міняємо маршрут, щоб забирати туристів по дорозі.</div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <img src="img/faq_picture.jfif" alt="faq_picture" class="img-fluid">
+                </div>             
             </div>
         </div>
     </section>
