@@ -82,8 +82,7 @@ ol, ul {
 }
 
 .wrap_cover {
-    background: url('../img/bg/promo_bg.png') no-repeat 91.56% 36.56% / cover;
-    background-attachment: fixed;
+    background: url('../img/bg/promo_bg.png') no-repeat 91.56% 0 / cover;
 }
 
 .navbar {
@@ -783,8 +782,179 @@ nav .navbar-expand-lg {
 }
 
 
+.contact {
+    background: url('../img/bg/contact_bg.png') fixed no-repeat 50% 50% / cover;
+    padding-top: 80px;
+    padding-bottom: 110px;
+}
+
+.contact ol, ul {
+    padding-left: 0;
+}
+
+.contact .col-md-6 {
+    margin-top: 30px;
+}
+
+.contact .contact_form {
+    background-color: var(--black);
+    padding: 70px 60px;
+}
+
+.contact .contact_label {
+    color: rgba(255,255,255,0.6);
+    text-align: center;
+}
+
+.contact .contact_head {
+    font-family: var(--headers-font);
+    color: var(--white);
+    font-size: 45px;
+    font-weight: 700;
+    letter-spacing: 1.35px;
+    line-height: 54px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.contact .contact_text {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 19px;
+    font-weight: 400;
+    margin-top: 25px;
+    line-height: 32.3px;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.contact .contact_fields {
+    margin-top: 20px;
+    padding-top: 12px;
+}
+
+/* _____________________________________________________________ */
+
+.contact .contact_fields input {
+    /* appearance: none;
+    background: none;
+    box-shadow: none; */
+    /* text-overflow: ellipsis; */
+    border: 0;
+    /* font-family: inherit; */
+    color: #707070;
+    border-color:#f7f7f7;
+    background-color:rgb(45, 46, 52);
+    width: 100%;
+    min-width: 150px;
+    padding: 14px 20px;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 0;
+    line-height: 1.2;
+    /* box-sizing: border-box; */
+    margin-bottom: 24px;
+}
+
+.form_submit_btn {
+    min-width: 150px;
+    width: 100%;
+    height: 44px;
+    border:none;
+    background-color: var(--blue);
+    /* border-radius: 4px; */
+    border: none;
+    color: var(--white);
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    /* outline: none; */
+    margin-top: 56px;
+}
+
+/* ----------------------------------------------- */
+.join-us_btn:hover {
+    /* font-weight: 400; */
+    color: #18191f!important;
+    -webkit-box-shadow: 0 0 0 0 transparent;
+    box-shadow: 0 0 0 0 transparent;
+    background-color: #fff;
+    transition: color .2s ease-in,background-color .2s ease-in,border-color .2s ease-in,box-shadow .2s ease-in,-webkit-box-shadow .2s ease-in;
+}
+
+.join-us_btn:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.0rem rgba(0,0,0,.0);
+}
+/* ----------------------------------------------- */
 
 
+
+
+
+.send_form_button_icon {
+    width: 24px;
+    height: 24px; 
+} 
+
+
+
+.google-maps {
+    position: relative;
+    padding-bottom: 150%;
+    height: 0;
+    overflow: hidden;
+}
+.google-maps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* width: 100% !important; */
+    /* height: 100% !important; */
+}
+
+
+.reviews {
+    background: url('../img/bg/reviews_bg.png') no-repeat 50% 50% / cover;
+}
+
+.reviews .background_opacity_rew {
+    background: rgba(255, 255, 255, 0.75);
+    padding-top: 95px;
+    padding-bottom: 120px;
+
+}
+
+.reviews .col-lg-12 {
+    margin-top: 30px;
+}
+.reviews_label, .blog_label {
+    color: var(--gray);
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 0.39px;
+    line-height: 20.8px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.reviews_head h6, .blog_head {
+    font-family: 'Playfair Display', serif;
+    color: var(--gray);
+    font-size: 45px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+.reviews_text {
+    color: var(--black);
+    font-size: 19px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 25px;
+}
 
 
 

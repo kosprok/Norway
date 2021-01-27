@@ -424,10 +424,10 @@ a.schedule_more_video {
     box-sizing: border-box;
 }
 
-.contact .contact_fields ul li [type='text'] {
-    /* border-color:#f7f7f7;
-    background-color:rgb(45, 46, 52); */
-}
+/* .contact .contact_fields ul li [type='text'] {
+    border-color:#f7f7f7;
+    background-color:rgb(45, 46, 52);
+} */
 
 .form_submit_btn {
     width: 450px;
