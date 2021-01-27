@@ -105,15 +105,23 @@ function checkLength(input, min, max) {
 
 // Check imput digits
 function validateForm(input) {
-  if (isNaN(input)) {
-    showError(
-      input,
-      `${getFieldName(input)} не є цифрою`
-    );
-  } else {
+//   if (isNaN(input)) {
+//     showError(
+//       input,
+//       `${getFieldName(input)} не є цифрою`
+//     );
+//   } else {
+//     showSuccess(input);
+//   };
+// }
+  const nu = /^[\+]?[(]?[0-9]{3}[)]?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{4,6}$/im;
+  if (nu.test(input.value.trim())) {
     showSuccess(input);
-  };
+  } else {
+    showError(input, 'Номер не вірний');
+  }
 }
+
 
 // Get fieldname
 function getFieldName(input) {
