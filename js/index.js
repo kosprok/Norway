@@ -118,7 +118,7 @@ function validateForm(input) {
   if (nu.test(input.value.trim())) {
     showSuccess(input);
   } else {
-    showError(input, 'Номер не вірний');
+    showError(input, 'Номер не вірний, мають бути лише цифри');
   }
 }
 
