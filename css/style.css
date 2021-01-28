@@ -56,8 +56,8 @@ ol, ul {
     background-size: 1.125rem 1.125rem;
     /* place it at the bottom right corner */
     position: fixed;
-	right: 0.75rem;
-	bottom: 0.75rem;
+	right: 1.5rem;
+	bottom: 1.5rem;
     /* keep it at the top of everything else */
     z-index: 10000;
     /* hide with opacity */
@@ -616,6 +616,7 @@ nav .navbar-expand-lg {
 
 .stunning_spots {
     background-color: var(--black);
+    padding: 125px 0 60px 0;
 }
 
 .stunning_spots .stunning_spots_label {
@@ -627,17 +628,20 @@ nav .navbar-expand-lg {
     color: var(--white);
     font-size: 45px;
     font-weight: 700;
+    margin-top: 20px;
 }
 
 .stunning_spots .stunning_spots_text {
     color: var(--white);
     font-size: 17px;
     font-weight: 400;
+    margin-top: 25px;
 }
 
 
 .spots_images {
     display: flex;
+    margin-top: 50px;
 }
 
 .spots_images .items {
@@ -647,8 +651,37 @@ nav .navbar-expand-lg {
 }
 
 .spots_images .items img {
-    width: 339px;
-    height: 304px;
+    width: 370px;
+    height: 332px;
+    padding: 10px 10px
+}
+
+.stunning_spots .spots_images .slick-prev:before {
+    font-size: 30px;
+}
+
+.stunning_spots .spots_images .slick-prev {
+    font-size: 30px;
+    left: 25px;
+    z-index: 100;
+}
+
+.stunning_spots .spots_images .slick-next:before {
+    font-size: 30px;
+}
+.stunning_spots .spots_images .slick-next {
+    font-size: 30px;
+    right: 20px;
+}
+
+.stunning_spots .spots_images .slick-dots li button:before {
+    font-size: 11px;
+    line-height: 20px;
+    color: #ffffff;
+}
+
+.stunning_spots .spots_images .slick-dots li.slick-active button:before {
+    color: none;
 }
 
 .stunning_spots_end {
@@ -1037,7 +1070,7 @@ nav .navbar-expand-lg {
 
 .blog {
     padding-top: 95px;
-    padding-bottom: 15px;
+    padding-bottom: 25px;
 }
 
 .blog .col-md-9 {
@@ -1070,6 +1103,142 @@ text-align: center;
     border: 1px solid rgba(33, 39, 54, 0.12);
     margin-top: 50px;
 }
+
+.contacts {
+    background: url('../img/bg/contact-us_bg.jfif') fixed no-repeat 50.94% 67.66% / cover;
+    padding-top: 180px;
+    padding-bottom: 80px;
+}
+
+.contacts .col-lg-4 {
+    margin: 30px 15px 0 15px;
+}
+
+.contacts .contacts_information img {
+    width: 70px;
+    height: 70px;
+    max-width: 70px;
+    max-height: 70px;
+}
+
+.contacts .contacts_main_text {
+    color: var(--white);
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.contacts .contacts_details_text, .contacts_details_text a {
+    color: var(--white);
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.contacts .contacts_details_text_center {
+    color: #a9a9a9;
+}
+
+.contacts_write, .contacts_visit, .contacts_call {
+    background: rgba(0, 0, 0, 0.65);
+    text-align: center;
+    max-width: 360px;
+    padding: 70px 30px;
+}
+
+.contacts_main_text, .contacts_details_text {
+    margin-top: 20px;
+}
+
+.info {
+    background-color: black;
+    padding-bottom: 18px;
+}
+
+.info_links {
+    padding: 60px 15px 15px 15px;
+    text-align: center;
+}
+
+.info_footer_divider {
+    height:1px;
+    width:70%;
+    margin: 15px 0 15px 0;
+    background-color:rgba(255, 36, 40, 0.0)
+}
+
+.info_footer_menu {
+    text-align: center;
+}
+
+.info .info_links img {
+    width: 176px;
+    height: auto;
+}
+.info .nav_item {
+    display: inline-block;
+}
+
+.info .nav_item {
+    margin:  5px 7.5px 5px 7.5px;
+}
+
+.info .nav_item a {
+    color: rgba(255, 255, 255, 0.4);
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.info .copyrights_section .copyrights_author, .copyrights_rights {
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--white);
+    letter-spacing: 0.39px;
+    line-height: 20.8px;
+}
+
+.info .copyrights_section .copyrights_author {
+    text-align:left;
+    padding-left: 15px;
+    max-width: 150px;
+}
+
+.info .copyrights_section .copyrights_media {
+    text-align: center;
+    max-width: 150px;
+}
+
+.info .copyrights_section .copyrights_rights {
+    text-align: right;
+    padding-right: 15px;
+    max-width: 150px;
+
+}
+
+.info .copyrights_section .copyrights_media img {
+    width:22px;
+    height:22px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
