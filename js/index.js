@@ -8,25 +8,63 @@ $(function () {
     slidesToScroll: 1,
     responsive: [
       {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 1,
-          infinite: true,
-          dots: true,
-        },
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1,
+        infinite: true,
+        dots: true,
+      },
       },
       {
-        breakpoint: 600,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-        },
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+      },
       },
     ],
   });
+
+
 });
+
+
+
+
+
+
+
+
+$(function () {
+  $('.single-item').slick({
+    dots: true,
+    infinite: true,
+    speed: 300,
+    slidesToShow: 1
+  });
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   
+
 
 
 
@@ -105,20 +143,11 @@ function checkLength(input, min, max) {
 
 // Check imput digits
 function validateForm(input) {
-//   if (isNaN(input)) {
-//     showError(
-//       input,
-//       `${getFieldName(input)} не є цифрою`
-//     );
-//   } else {
-//     showSuccess(input);
-//   };
-// }
   const nu = /^[\+]?[(]?[0-9]{3}[)]?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{4,6}$/im;
   if (nu.test(input.value.trim())) {
     showSuccess(input);
   } else {
-    showError(input, 'Номер не вірний, мають бути лише цифри');
+    showError(input, 'Вкажіть вірний номер');
   }
 }
 
