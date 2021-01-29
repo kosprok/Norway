@@ -1159,6 +1159,21 @@ nav .navbar-expand-lg {
     margin-top: -40px;
 }
 
+.reviews .review img {
+    max-width: 1140px;
+    max-height: 360px;
+}
+    
+.reviews .slick-next {
+    right: 10px;
+    z-index: 100;
+}
+
+.reviews .slick-prev {
+    left: -5px;
+    z-index: 100;
+}
+
 .blog {
     padding-top: 95px;
     padding-bottom: 25px;
