@@ -22,8 +22,7 @@
 html {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    /* background-color: #232428; */
-    background-color: rgb(107, 102, 86);
+    background-color: #232428;
 }
 
 ol, ul {
@@ -78,7 +77,6 @@ ol, ul {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 24px;
 }
 
 .wrap_cover {
@@ -88,6 +86,14 @@ ol, ul {
 .navbar {
     padding-top: 25px;
     padding-bottom: 25px;
+}
+
+.arrow_bolt {
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 7px;
+    margin-right: 5px;
+    margin-left: 5px;
 }
 
 nav .navbar-collapse {
@@ -101,6 +107,11 @@ nav .container .nav-item a {
     text-decoration:none;
     display: inline-block;
     position: relative;
+}
+
+nav .container .nav-item a:hover {
+    color: var(--red);
+
 }
 
 nav .container .navbar-brand img {
@@ -134,7 +145,7 @@ nav .navbar-nav a.nav-link.btn {
 
 nav .navbar-nav .join-us_btn {
     margin-left: 0.3rem;
-    padding: 0.25rem 2.5rem 0.25rem 0.7rem!important;
+    padding: 0.25rem 0.7rem 0.25rem 0.7rem;
 }
 
 nav .container .me-0 {
@@ -197,6 +208,25 @@ nav .navbar-expand-lg {
     color: var(--white);
 }
 
+.promo .col-md-5 .promo_play_block a {
+    transition-property: all;
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+.promo .col-md-5 .promo_play_block a:hover {
+    color: var(--red);
+    transition-property: all;
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+
+
 .promo .col-md-12, .col-md-5, .col-md-3, .col-md-4 {
     padding-top: 30px;
 }
@@ -226,8 +256,26 @@ nav .navbar-expand-lg {
 .promo .promo_schedule .promo_subheader_more {
     color: var(--white);
     font-size: 14px;
+    line-height: 17px;
     font-weight:700;
     text-decoration:none;
+}
+
+
+.promo .promo_schedule .promo_subheader_more .details {
+    transition-property: all;
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+.promo .promo_schedule .promo_subheader_more .details:hover {
+    color: var(--red);
+    transition-property: all;
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    font-size: 16px;
 }
 
 .promo_label, .about_label, .route_label, .about-norway_label, .places_label, .stunning_spots_label, .faq_label, .contact_label, .reviews_label {
@@ -347,8 +395,9 @@ nav .navbar-expand-lg {
     margin-top: 20px;
 }
 
-.route .route_head .color_white {
-    font-family: 'Playfair Display', serif;
+.route .route_head .main_color_header {
+    font-family: var(--headers-font);
+    color: var(--white);
 }
 
 .route .route_subheader {
@@ -614,6 +663,33 @@ nav .navbar-expand-lg {
     line-height: 24px;
 }
 
+.places .places_details_highlights a {
+    color: var(--white);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    text-decoration: none;
+}
+
+.places .places_details_highlights .places_details_btn {
+    background: var(--blue);
+    padding: 14px 20px;
+    display: inline-flex;
+    margin-top: 40px;
+    transition-property: all;
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+.places .places_details_highlights .places_details_btn:hover {
+    background: var(--black);
+    transition-property: all;
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
 .stunning_spots {
     background-color: var(--black);
     padding: 125px 0 60px 0;
@@ -626,9 +702,14 @@ nav .navbar-expand-lg {
 .stunning_spots .stunning_spots_head span, h5 {
     font-family: var(--headers-font);
     color: var(--white);
+    color: #505155;
     font-size: 45px;
     font-weight: 700;
     margin-top: 20px;
+}
+
+.stunning_spots .stunning_spots_head span {
+    color: var(--white);
 }
 
 .stunning_spots .stunning_spots_text {
@@ -686,13 +767,19 @@ nav .navbar-expand-lg {
 
 .stunning_spots_end {
     padding-top: 50px;
-    padding-bottom: 60px;
+    padding-bottom: 40px;
 }
 
 .stunning_spots_end .wrapper_container {
     margin-top: 30px;
     padding-left: 15px;
     padding-right: 15px;
+    border-top-width:1px;
+    border-top-color: var(--gray);
+    border-top-style: solid;
+    border-bottom-width:1px;
+    border-bottom-color: var(--gray);
+    border-bottom-style: solid;
 }
 
 .stunning_spots .stunning_spots_quote_icon {
@@ -714,6 +801,7 @@ nav .navbar-expand-lg {
     font-size: 17px;
     font-weight: 400;
     text-align: center;
+    margin-bottom: 20px;
 }
 
 .faq {
@@ -735,6 +823,7 @@ nav .navbar-expand-lg {
 .faq .faq_head {
     margin-top: 20px;
 }
+
 .faq .faq_head span {
     font-family: var(--headers-font);
     color: var(--white);
@@ -742,6 +831,10 @@ nav .navbar-expand-lg {
     font-weight: 700;
     letter-spacing: 1.35px;
     line-height: 54px;
+}
+
+.faq .faq_head span.header_color_additional {
+    color: var(--gray);
 }
 
 .faq .faq_text {
@@ -906,7 +999,6 @@ nav .navbar-expand-lg {
     margin-top: 56px;
 }
 
-/* ----------------------------------------------- */
 .join-us_btn:hover {
     /* font-weight: 400; */
     color: #18191f!important;
@@ -920,21 +1012,20 @@ nav .navbar-expand-lg {
     outline: 0;
     box-shadow: 0 0 0 0.0rem rgba(0,0,0,.0);
 }
-/* ----------------------------------------------- */
 
 .send_form_button_icon {
     width: 24px;
     height: 24px; 
 } 
 
-.google-maps {
+.contact .google-maps {
     position: relative;
     padding-bottom: 150%;
     height: 0;
     overflow: hidden;
 }
 
-.google-maps iframe {
+.contact .google-maps iframe {
     position: absolute;
     top: 0;
     left: 0;
@@ -1137,15 +1228,79 @@ text-align: center;
     color: #a9a9a9;
 }
 
-.contacts_write, .contacts_visit, .contacts_call {
+.contacts .contacts_write, .contacts_visit, .contacts_call {
     background: rgba(0, 0, 0, 0.65);
     text-align: center;
     max-width: 360px;
     padding: 70px 30px;
 }
 
-.contacts_main_text, .contacts_details_text {
+.contacts .contacts_main_text, .contacts_details_text {
     margin-top: 20px;
+}
+
+.contact .form-control {
+    /* margin-bottom: 10px;
+    padding-bottom: 20px; */
+    position: relative;
+    border-radius: 0;
+    background-color: rgba(0, 0, 0, 0);
+    border-color: rgba(0, 0, 0, 0);
+    border-width: 0;
+    padding: .3rem 0;
+}
+  
+.contact .form-control label {
+    color: #777;
+    /* display: block;
+    margin-bottom: 5px; */
+}
+
+.contact .form-control input {
+    /* border: 2px solid #f0f0f0;
+    border-radius: 4px; */
+    display: block;
+    /* width: 100%;
+    padding: 10px;
+    font-size: 14px; */
+}
+
+.contact .form-control input:focus {
+    outline: 0;
+    border-color: #777;
+}
+
+.contact .form-control.success input {
+    border-color: var(--gray);
+}
+
+.contact .form-control.error input {
+    border-color: var(--red);
+}
+
+.contact .form-control small {
+    color: var(--red);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    visibility: hidden;
+}
+
+.contact .form-control.error small {
+    visibility: visible;
+}
+
+.contact .form button {
+    cursor: pointer;
+    background-color: #3498db;
+    border: 2px solid #3498db;
+    /* border-radius: 4px; */
+    color: #fff;
+    display: block;
+    font-size: 16px;
+    padding: 10px;
+    margin-top: 33px;
+    width: 100%;
 }
 
 .info {
@@ -1185,6 +1340,7 @@ text-align: center;
     color: rgba(255, 255, 255, 0.4);
     font-size: 14px;
     font-weight: 500;
+    text-decoration: none;
 }
 
 .info .copyrights_section .copyrights_author, .copyrights_rights {
@@ -1217,54 +1373,6 @@ text-align: center;
     width:22px;
     height:22px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* ___ПЕРЕНЕСТИ В ІНШУ СЕКЦІЮ__________________________________________________________ */
 
 @media (max-width: 767px) {
     nav.navbar.navbar-expand-lg.navbar-custom {
@@ -1329,7 +1437,6 @@ text-align: center;
         padding-top: 0;
     }
 }
-
 
 @media (max-width: 767px) {
     .about-us .col-md-6 .about_head span, h2 {
@@ -1416,7 +1523,28 @@ text-align: center;
     }
 }
 
+@media (max-width: 991px) {
+    .about-norway .about-norway_stat_items_nubers {
+        font-size: 45px;
+        font-weight: 500;
+        line-height: 45px;
+    }
+}
+@media (max-width: 767px) {
+    .about-norway .about-norway_stat_items_nubers {
+        font-size: 40px;
+        font-weight: 500;
+        line-height: 40px;
+    }
+}
 
+@media (max-width: 320px) {
+    .about-norway .about-norway_stat_items_nubers {
+        font-size: 35px;
+        font-weight: 500;
+        line-height: 35px;
+    }
+}
 
 @media (max-width: 767px) {
     .my-video-dimensions {
@@ -1454,13 +1582,6 @@ text-align: center;
     }
 }
 
-/* @media (max-width: 1000px) {
-    .spots_images .items img {
-        width: 285px;
-        height: 255px;
-    }
-} */
-
 @media (max-width: 900px) {
     .spots_images .items img {
         width: 313px;
@@ -1493,6 +1614,22 @@ text-align: center;
 @media (max-width: 320px) {
     .faq .col-md-6 .faq_head span {
         font-size: 28px;
+    letter-spacing: 0.9px;
+    line-height: 35px;
+    }
+}
+
+@media (max-width: 767px) {
+    .contact .contact_head {
+    font-size: 34px;
+    letter-spacing: 1.02px;
+    line-height: 41px;
+    }
+}
+
+@media (max-width: 320px) {
+    .contact .contact_head {
+    font-size: 28px;
     letter-spacing: 0.9px;
     line-height: 35px;
     }
@@ -1550,11 +1687,77 @@ text-align: center;
     }
 }
 
+@media (max-width: 320px) {
+    .contacts .contacts_write, .contacts_visit, .contacts_call {
+        max-width: 260px;
+        padding: 40px 10px;
+    }
+    .contacts .col-lg-4 {
+        margin: 10px 5px 0 5px;
+    }
 
+}
 
+@media (max-width: 767px) {
+    .blog .blog_head {
+    font-size: 34px;
+    letter-spacing: 1.02px;
+    line-height: 41px;
+    }
+}
 
+@media (max-width: 320px) {
+    .blog .blog_head {
+    font-size: 28px;
+    letter-spacing: 0.9px;
+    line-height: 35px;
+    }
+}
 
+@media (max-width: 767px) {
+    .places .places_details_head {
+    font-size: 34px;
+    letter-spacing: 1.02px;
+    line-height: 41px;
+    }
+    .places .places_details {
+        padding: 35px 33px;
+    }
+    .about-norway .about-norway_header{
+    font-size: 34px;
+    letter-spacing: 1.02px;
+    line-height: 41px;
+    }
+    .contacts .contacts_write, .contacts_visit, .contacts_call {
+        max-width: 330px;
+        padding: 60px 20px;
+    }
+}
 
+@media (max-width: 320px) {
+    .places .places_details_head { 
+    font-size: 28px;
+    letter-spacing: 0.9px;
+    line-height: 35px;
+    }
+    .places .places_details {
+        padding: 30px 28px;
+    }
+    .places .places_details_head { 
+        font-size: 28px;
+        letter-spacing: 0.9px;
+        line-height: 35px;
+    }
+    .about-norway .about-norway_header{
+        font-size: 34px;
+        letter-spacing: 1.02px;
+        line-height: 41px;
+    }
+    .contacts .contacts_write, .contacts_visit, .contacts_call {
+        max-width: 280px;
+        padding: 45px 10px;
+    }
+}
 
 
 
@@ -1641,84 +1844,3 @@ text-align: center;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-/* ---------------------------------------------- */
-
-/* .form {
-    padding: 30px 40px;
-  } */
-  
-  .form-control {
-    /* margin-bottom: 10px;
-    padding-bottom: 20px; */
-    position: relative;
-    border-radius: 0;
-    background-color: rgba(0, 0, 0, 0);
-    border-color: rgba(0, 0, 0, 0);
-    border-width: 0;
-    padding: .3rem 0;
-  }
-  
-  .form-control label {
-    color: #777;
-    /* display: block;
-    margin-bottom: 5px; */
-  }
-  
-  .form-control input {
-    /* border: 2px solid #f0f0f0;
-    border-radius: 4px; */
-    display: block;
-    /* width: 100%;
-    padding: 10px;
-    font-size: 14px; */
-  }
-  
-  .form-control input:focus {
-    outline: 0;
-    border-color: #777;
-  }
-  
-  .form-control.success input {
-    border-color: var(--success-color);
-  }
-  
-  .form-control.error input {
-    border-color: var(--error-color);
-  }
-  
-  .form-control small {
-    color: var(--red);
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    visibility: hidden;
-  }
-  
-  .form-control.error small {
-    visibility: visible;
-  }
-  
-  .form button {
-    cursor: pointer;
-    background-color: #3498db;
-    border: 2px solid #3498db;
-    /* border-radius: 4px; */
-    color: #fff;
-    display: block;
-    font-size: 16px;
-    padding: 10px;
-    margin-top: 20px;
-    width: 100%;
-  }
