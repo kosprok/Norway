@@ -80,7 +80,7 @@ ol, ul {
 }
 
 .wrap_cover {
-    background: url('../img/bg/promo_bg.png') no-repeat 91.56% 0 / cover;
+    background: url('../img/bg/promo_bg.jfif') no-repeat 91.56% 0 / cover;
 }
 
 .navbar {
@@ -909,7 +909,7 @@ nav .navbar-expand-lg {
 
 
 .contact {
-    background: url('../img/bg/contact_bg.png') fixed no-repeat 50% 50% / cover;
+    background: url('../img/bg/contact_bg.jfif') fixed no-repeat 50% 50% / cover;
     padding-top: 80px;
     padding-bottom: 110px;
 }
