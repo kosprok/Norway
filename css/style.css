@@ -67,7 +67,7 @@ ol, ul {
     transition: all .5s ease;
     outline: 0!important;
 }
-      
+
 .showBtn {
     opacity: 1;
     transform: translateY(0);
@@ -337,6 +337,9 @@ nav .navbar-expand-lg {
 
 .about-us .start_section .row .col-md-4 {
     margin-top: 50px;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-left: auto;
     padding: 25px 35px;
     background-color: var(--white);
     max-width: 370px;
@@ -503,6 +506,7 @@ nav .navbar-expand-lg {
     text-align: -webkit-center;
     display: flex;
     margin-top: 55px;
+    justify-content: center;
 }
 
 .vjs-poster {
@@ -728,10 +732,12 @@ nav .navbar-expand-lg {
 .spots_images .items {
     /* width: 250px;
     height: 200px; */
-    margin: 15px;
+    margin: auto;
 }
 
 .spots_images .items img {
+    display: block;
+    margin: auto;
     width: 370px;
     height: 332px;
     padding: 10px 10px
@@ -742,8 +748,8 @@ nav .navbar-expand-lg {
 }
 
 .stunning_spots .spots_images .slick-prev {
-    font-size: 30px;
-    left: 25px;
+    /* font-size: 30px; */
+    left: 30px;
     z-index: 100;
 }
 
@@ -751,8 +757,8 @@ nav .navbar-expand-lg {
     font-size: 30px;
 }
 .stunning_spots .spots_images .slick-next {
-    font-size: 30px;
-    right: 20px;
+    /* font-size: 30px; */
+    right: 40px;
 }
 
 .stunning_spots .spots_images .slick-dots li button:before {
@@ -1217,7 +1223,8 @@ text-align: center;
 }
 
 .contacts .col-lg-4 {
-    margin: 30px 15px 0 15px;
+    margin: 15px auto;
+    /* margin: 30px 15px 0 15px; */
 }
 
 .contacts .contacts_information img {
@@ -1391,14 +1398,23 @@ text-align: center;
 
 @media (max-width: 767px) {
     nav.navbar.navbar-expand-lg.navbar-custom {
-        background-color:black;
+        /* background-color:black; */
+    }
+    nav .navbar-collapse {
+        background-color: var(--black);
+        border-radius: 10px;
     }
 }
 
 
 @media (min-width: 768px) and (max-width:991px) {
     nav.navbar.navbar-expand-lg.navbar-custom {
-        background-color:black;
+        /* background-color:black; */
+    }
+    nav .navbar-collapse {
+        text-align: center!important;
+        background-color: var(--black);
+        border-radius: 10px;
     }
 }
 
@@ -1597,24 +1613,24 @@ text-align: center;
     }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 639px) {
     .spots_images .items img {
-        width: 313px;
-        height: 281px;
+        width: 398px;
+        height: 358px;
     }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 414px) {
     .spots_images .items img {
-        width: 228px;
-        height: 204px;
+        width: 342px;
+        height: 306px;
     }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 360px) {
     .spots_images .items img {
-        width: 199px;
-        height: 179px;
+        width: 285px;
+        height: 255px;
     }
 }
 
