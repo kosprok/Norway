@@ -1726,8 +1726,24 @@ text-align: center;
     }
 }
 
+@media (max-width: 767px) {
+    .contact .contact_head h4 {
+    font-size: 34px;
+    letter-spacing: 1.02px;
+    line-height: 41px;
+    }
+}
+
 @media (max-width: 320px) {
     .contact .contact_head {
+    font-size: 28px;
+    letter-spacing: 0.9px;
+    line-height: 35px;
+    }
+}
+
+@media (max-width: 320px) {
+    .contact .contact_head h4 {
     font-size: 28px;
     letter-spacing: 0.9px;
     line-height: 35px;
