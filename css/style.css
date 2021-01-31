@@ -287,6 +287,15 @@ nav .navbar-expand-lg {
     text-transform: uppercase;
 }
 
+.places .places_label h5 {
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.39px;
+    line-height: 20.8px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
 .about_label, .route_label, .about-norway_label, .places_label, .stunning_spots_label, .faq_label {
     color: var(--light-gray);
 }
@@ -703,7 +712,16 @@ nav .navbar-expand-lg {
     color: rgba(255,255,255,0.6);
 }
 
-.stunning_spots .stunning_spots_head span, h5 {
+.stunning_spots .stunning_spots_head span {
+    font-family: var(--headers-font);
+    color: var(--white);
+    color: #505155;
+    font-size: 45px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.stunning_spots .stunning_spots_head h5 {
     font-family: var(--headers-font);
     color: var(--white);
     color: #505155;
