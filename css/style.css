@@ -1419,7 +1419,26 @@ text-align: center;
     transition-duration: 0.2s;
     transition-timing-function: ease;
     transition-delay: 0s;
+}
 
+.info .nav_item a h6 {
+    color: rgba(255, 255, 255, 0.4);
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    transition-property: all;
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    margin-bottom: 0;
+}
+
+.info .nav_item a h6:hover {
+    color: var(--white);
+    transition-property: all;
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
 }
 
 .info .nav_item a:hover {
@@ -1429,6 +1448,7 @@ text-align: center;
     transition-timing-function: ease;
     transition-delay: 0s;
 }
+
 .info .copyrights_section .copyrights_author, .copyrights_rights {
     font-size: 13px;
     font-weight: 500;
