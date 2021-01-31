@@ -120,9 +120,9 @@ nav .container .navbar-brand img {
 }
 
 nav .join-us_btn {
+    border-color: var(--white);
     border-width: 2px;
     border-radius: 0;
-    border-color: var(--white);
     border-style: solid;
     word-break: break-word;
     vertical-align: middle;
@@ -175,21 +175,21 @@ nav .navbar-expand-lg {
 }
 
 .promo h1 {
+    color: var(--white);
     font-size: 1125%;
     font-family: 'Playfair Display', serif;
     font-weight: 600;
     text-decoration: none;
     font-style: normal;
     letter-spacing: 0;
-    color: var(--white);
 }
 
 .promo .label {
+    color: var(--white);
     font-size: 13px;
     font-weight: bold;
     letter-spacing: 0.39px;
     line-height: 21px;
-    color: var(--white);
 }
 
 .promo .promo_play_icon {
@@ -201,11 +201,11 @@ nav .navbar-expand-lg {
 }
 
 .promo .col-md-5 a, .dash_text {
+    color: var(--white);
     font-size: 13px;
     font-weight: bold;
     letter-spacing: .03em;
     line-height: 1.6;
-    color: var(--white);
 }
 
 .promo .col-md-5 .promo_play_block a {
@@ -450,9 +450,9 @@ nav .navbar-expand-lg {
 }
 
 .route .reasons_round {
+    background: rgba(255, 255, 255, 0.05);
     position: absolute;
     border-radius:50%;
-    background: rgba(255, 255, 255, 0.05);
 }
 
 .route .reasons_description {
@@ -472,37 +472,37 @@ nav .navbar-expand-lg {
 }
 
 .about-norway .about-norway_header h5 {
+    color: var(--gray);
     font-family: 'Playfair Display', serif;
     font-size: 45px;
     font-weight: 700;
     letter-spacing: 1.35px;
     line-height: 54px;
     display: inline;
-    color: var(--gray);
     margin-top: 20px;
 }
 
 .about-norway .about-norway_description, .about-norway_text_ending {
+    color: var(--gray);
     font-size: 19px;
     font-weight: 400;
     line-height: 32.3px;
-    color: var(--gray);
 }
 
 .about-norway .about-norway_stat_items_nubers {
+    color: var(--black);
     font-size: 60px;
     font-weight: 500;
     line-height: 60px;
-    color: var(--black);
     text-align: center;
 }
 
 .about-norway .about-norway_stat_items_texts {
+    color: var(--gray);
     font-size: 15px;
     font-weight: 400;
     line-height: 24px;
     text-align: center;
-    color: var(--gray);
     margin-top: 20px;
 }
 
@@ -577,10 +577,10 @@ nav .navbar-expand-lg {
 }
 
 .places .nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
+    color: var(--gray);
     border-top-color: transparent;
     border-right-color: transparent;
     border-left-color: transparent;
-    color: var(--gray);
 }
 
 .places .places_details {
@@ -713,8 +713,8 @@ nav .navbar-expand-lg {
 }
 
 .stunning_spots .stunning_spots_head span {
-    font-family: var(--headers-font);
     color: var(--white);
+    font-family: var(--headers-font);
     color: #505155;
     font-size: 45px;
     font-weight: 700;
@@ -780,9 +780,9 @@ nav .navbar-expand-lg {
 }
 
 .stunning_spots .spots_images .slick-dots li button:before {
+    color: #ffffff;
     font-size: 11px;
     line-height: 20px;
-    color: #ffffff;
 }
 
 .stunning_spots .spots_images .slick-dots li.slick-active button:before {
@@ -849,8 +849,8 @@ nav .navbar-expand-lg {
 }
 
 .faq .faq_head span {
-    font-family: var(--headers-font);
     color: var(--white);
+    font-family: var(--headers-font);
     font-size: 45px;
     font-weight: 700;
     letter-spacing: 1.35px;
@@ -871,13 +871,13 @@ nav .navbar-expand-lg {
 }
 
 .faq .faq_text h2 {
+    color: rgba(255, 255, 255, 0.6)!important;
     font-family: 'Roboto', sans-serif;
     letter-spacing: normal;
     font-size: 19px;
     font-weight: 400;
     margin-top: 25px;
     line-height: 32.3px;
-    color: rgba(255, 255, 255, 0.6)!important;
     margin-bottom: 0;
 }
 
@@ -969,8 +969,8 @@ nav .navbar-expand-lg {
 }
 
 .contact .contact_head {
-    font-family: var(--headers-font);
     color: var(--white);
+    font-family: var(--headers-font);
     font-size: 45px;
     font-weight: 700;
     letter-spacing: 1.35px;
@@ -980,8 +980,8 @@ nav .navbar-expand-lg {
 }
 
 .contact .contact_head h4 {
-    font-family: var(--headers-font);
     color: var(--white);
+    font-family: var(--headers-font);
     font-size: 45px;
     font-weight: 700;
     letter-spacing: 1.35px;
@@ -1007,8 +1007,6 @@ nav .navbar-expand-lg {
     padding-top: 12px;
     position: relative;
 }
-
-/* ___ПЕРЕНЕСТИ В ІНШУ СЕКЦІЮ__________________________________________________________ */
 
 .contact .contact_fields input {
     /* appearance: none;
@@ -1090,7 +1088,6 @@ nav .navbar-expand-lg {
     background: rgba(255, 255, 255, 0.4);
     padding-top: 95px;
     padding-bottom: 120px;
-
 }
 
 .reviews .col-lg-12 {
@@ -1114,7 +1111,6 @@ nav .navbar-expand-lg {
     font-weight: 700;
     text-align: center;
     margin-top: 20px;
-
 }
 
 .reviews_text {
@@ -1450,9 +1446,9 @@ text-align: center;
 }
 
 .info .copyrights_section .copyrights_author, .copyrights_rights {
+    color: var(--white);
     font-size: 13px;
     font-weight: 500;
-    color: var(--white);
     letter-spacing: 0.39px;
     line-height: 20.8px;
 }
@@ -1867,89 +1863,5 @@ text-align: center;
         padding: 45px 10px;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
