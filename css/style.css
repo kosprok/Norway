@@ -950,6 +950,11 @@ nav .navbar-expand-lg {
     padding-bottom: 110px;
 }
 
+.contact iframe {
+    border-width: 0px;
+}
+
+
 .contact ol, ul {
     padding-left: 0;
 }
