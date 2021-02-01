@@ -1819,10 +1819,20 @@ text-align: center;
     letter-spacing: 1.02px;
     line-height: 41px;
     }
+    .blog .blog_head h6 {
+    font-size: 34px;
+    letter-spacing: 1.02px;
+    line-height: 41px;
+    }
 }
 
 @media (max-width: 320px) {
     .blog .blog_head {
+    font-size: 28px;
+    letter-spacing: 0.9px;
+    line-height: 35px;
+    }
+    .blog .blog_head h6 {
     font-size: 28px;
     letter-spacing: 0.9px;
     line-height: 35px;
